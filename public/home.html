@@ -37,7 +37,6 @@
                 <p>Our website that offers resources and information on healthcare and medical services.
                     Connecting patients with healthcare providers and facilitating patient access to medical services
                     are the main goals of our websites.
-                    We provide a number of services, such as online appointment scheduling, and virtual consultations.
                 </p>
                 <div class="hero-text-btns">
                     <a href="#">
@@ -103,7 +102,7 @@
     </section>
     <section id="our-story">
         <div class="our-story-img">
-            <img src="Images/patient.jpg" alt="Our Story">
+            <img src="Images/Check up.jpeg" alt="Our Story">
         </div>
         <div class="our-story-text">
             <h2>Short Story About Our Clinic.</h2>
@@ -134,3 +133,82 @@
             </div>
         </div>
     </section>
+    <section id="our-services">
+        <div class="services-heading-text">
+            <strong>Our Services</strong>
+            <h2>High Quality Services For You</h2>
+        </div>
+        <div class="services-slide-btns">
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+        <div class="services-box-container">
+            <div class="swiper mySwiperservices">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="service-box s-box1">
+                            <i class="fa-solid fa-stethoscope"></i>
+                            <strong>Online Appointment</strong>
+                            <p>Appointments from your most trusted doctors.</p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="service-box s-box2">
+                            <i class="fa-solid fa-eye"></i>
+                            <strong>Eye Care</strong>
+                            <p>Laser treatment for all eye related issues and problems.</p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="service-box s-box3">
+                            <i class="fa-sharp fa-solid fa-face-smile"></i>
+                            <strong>Skin Care</strong>
+                            <p>Connect to World class Dermatologist at one click.</p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="service-box s-box4">
+                            <i class="fa-solid fa-vial-virus"></i>
+                            <strong>Lab tests</strong>
+                            <p>Each and every tests at most reasonable and affordable price. </p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <span class="service-help-btn">Contact Us for Need Any Help And Services <a href="#">Let's Get Started</a>
+        </span>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiperservices", {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            breakpoints: {
+
+                768: {
+                    slidesPerView: 4,
+                    spaceBetween: 40,
+                },
+                1024: {
+                    slidesPerView: 3,
+                    spaceBetween: 20,
+                },
+            },
+        });
+    </script>
+</body>
+
+</html>
