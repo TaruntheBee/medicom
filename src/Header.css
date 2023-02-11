@@ -2,11 +2,13 @@
     position:sticky;
     top:0;
     display: flex;
+    background-color: aliceblue;
     justify-content: space-evenly;
     border-bottom: 0.1px solid aqua;
     padding-top: 10px;
     padding-bottom: 10px;
     width: 100px;
+    z-index:999;
 }
 
 .header_left{
