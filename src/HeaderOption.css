@@ -1,0 +1,12 @@
+.headerOption{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: right 20px;
+    color:aqua;
+    cursor:pointer;
+}
+
+.headerOption:hover{
+    color: aquamarine;            
+}
