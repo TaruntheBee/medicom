@@ -38,5 +38,6 @@
 
 .header_right{
     display:flex;
-    
+    position: fixed;
+    left: 80%;
 }
