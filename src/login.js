@@ -1,8 +1,11 @@
+import "./login.css";
 import React, { useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { auth, signInWithEmailPassword, signInWIthGoogle } from './firebase';
 import { useAuth } from "react-firebase-hooks/auth";
-import "./login.css";
+
+
+console.log("working")
 
 function Login() {
     const [email, setEmail] = useState("");
@@ -27,40 +30,35 @@ function Login() {
                     <Link to="/register" className="login__register">Register</Link>
                 </div>
             </div>
-        )
-        }
+        );
+    }
 
+export default Login;
 
-    
-    
-    
-    )
-}
+// const forms = document.querySelector(".forms"),
+// pwShowHide = document.querySelectorAll(".eye-icon"),
+// links = document.querySelectorAll(".link");
 
-const forms = document.querySelector(".forms"),
-pwShowHide = document.querySelectorAll(".eye-icon"),
-links = document.querySelectorAll(".link");
-
-pwShowHide.forEach(eyeIcon => {
-eyeIcon.addEventListener("click", () => {
-  let pwFields = eyeIcon.parentElement.parentElement.querySelectorAll(".password");
+// pwShowHide.forEach(eyeIcon => {
+// eyeIcon.addEventListener("click", () => {
+//   let pwFields = eyeIcon.parentElement.parentElement.querySelectorAll(".password");
   
-  pwFields.forEach(password => {
-      if(password.type === "password"){
-          password.type = "text";
-          eyeIcon.classList.replace("bx-hide", "bx-show");
-          return;
-      }
-      password.type = "password";
-      eyeIcon.classList.replace("bx-show", "bx-hide");
-  })
+//   pwFields.forEach(password => {
+//       if(password.type === "password"){
+//           password.type = "text";
+//           eyeIcon.classList.replace("bx-hide", "bx-show");
+//           return;
+//       }
+//       password.type = "password";
+//       eyeIcon.classList.replace("bx-show", "bx-hide");
+//   })
   
-})
-})      
+// })
+// })      
 
-links.forEach(link => {
-link.addEventListener("click", e => {
- e.preventDefault(); //preventing form submit
- forms.classList.toggle("show-signup");
-})
-})
+// links.forEach(link => {
+// link.addEventListener("click", e => {
+//  e.preventDefault(); //preventing form submit
+//  forms.classList.toggle("show-signup");
+// })
+// })
