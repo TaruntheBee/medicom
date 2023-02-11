@@ -12,5 +12,31 @@
  }
 
  .feed_input{
-    
+    border: 1px solid aquamarine;
+    border-radius:30 px;
+    display:flex;
+    padding:10px;
+    color:aqua;
+    padding-left:15px;
  }
+.feed_input >form{
+    display: flex;
+    width:100%;
+}
+
+.feed_input>form>input{
+    border:none;
+    flex:1;
+    margin-left:18px;
+    outline-width:0;
+    font-weight: 600;
+}
+
+.feed_input>form>button{
+    display:none;
+}
+
+.feed_inputOptions {
+    display:flex;
+    justify-content: spaced-evenly ;
+}
