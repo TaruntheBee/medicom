@@ -14,7 +14,7 @@ function App() {
   <div className="app_body">
     <SideBar/>
     <Feed/>
-  {/* Widgets */} 
+    <Widgets/>
   </div> 
 </div> 
 );

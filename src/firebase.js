@@ -1,4 +1,5 @@
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+import firebase from 'firebase'
 const firebaseConfig = {
   apiKey: "AIzaSyB6oDRFLhCSBDvErDA7I2-7hgQmrGnre0k",
   authDomain: "medicom-94bd6.firebaseapp.com",

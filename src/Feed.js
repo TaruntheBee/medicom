@@ -10,8 +10,10 @@ import InputOption from "./InputOption";
 function Feed() {
     const[posts,setPosts] =useState([]);
 
-    constsendPost= e=>{
-        
+    constsendPost= e=>{ e.preventDefault()
+    };
+
+
     }
   return (
     <div className="Feed">
@@ -41,6 +43,16 @@ function Feed() {
      description='This is a test'
      message='WOW this worked'/>
     </div>
+    <div>
+ <Post name='Ankit Shrivastava' 
+    description='This is a test'
+    message='WOW this worked'/>
+    </div>
+    div
+    <Post name='Aryan Malhotra', 
+    description=''
+    message='Don't Consume Alchohol'/>
+ 
 
   );
 }

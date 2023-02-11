@@ -1,0 +1,50 @@
+.widgets{
+    position:sticky;
+    top:80px;
+    flex: 0.2px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    border:1px solid aqua;
+    height:fit-content;
+    padding-bottom: 10px;
+}
+
+.widgets_header{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    padding:10px;
+}
+
+.widgets_header>h2{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.widgets_article{
+    display: flex;
+    padding: 10px;
+    cursor:pointer;
+}
+
+.widgets_article:hover{
+    background-color:aquamarine;
+}
+
+.widgets_articleleft{
+    color:rgb(0, 119, 255);
+    margin-right: 5px;
+}
+
+.widgets_articleleft>MuiSvgcon-root{
+    font-size: 15px;
+}
+
+.widgets_articleRight>h4{
+    font-size:14px;
+}
+
+.widgets_articleRight>p{
+    font-size:12px;
+    color:aquamarine;
+}
