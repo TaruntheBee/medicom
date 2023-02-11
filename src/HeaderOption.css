@@ -7,6 +7,19 @@
     cursor:pointer;
 }
 
+.headerOption_title{
+    font-size: 12px;
+    font-weight:400;
+}
+
+
 .headerOption:hover{
-    color: aquamarine;            
+    color: black;            
+} 
+
+.headerOption_icon{
+    object-fit: contain;
+    height:25px !important;
+    width: 25px !important;
+
 }

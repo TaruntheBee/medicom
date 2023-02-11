@@ -1,8 +1,12 @@
 .header {
+    position:sticky;
+    top:0;
     display: flex;
     justify-content: space-evenly;
     border-bottom: 0.1px solid aqua;
     padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100px;
 }
 
 .header_left{
