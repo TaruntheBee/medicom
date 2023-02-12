@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    /* background-color: #f5f5f5; */
+    /* background-color: #dfebeb; */
+    /* background-color: #3c4545; */
+    /* background-color: #ddaae7; */
+    background-color: #97994d3d;
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 50px;
+}
+
+/* make heading dynamic background */
+
+.heading {
+    background: linear-gradient(90deg, #00d2ff, #3a47d5);
+     background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* total-dieseases background color and make it responsive */
+
+.total-dieseases {
+    background-color: #7c583d;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+#all-dieseases {
+    background: linear-gradient(90deg, #00d2ff, #3a47d5);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#all-dieseases {
+    /* align-content: center;
+    align-items: center; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* all id are on left side of the web page and make it responsive */
+
+
+
+#all-dieseases  {
+    width: 58%;
+    margin-bottom: 30px;
+    /* background-color: #fff; */
+    background-color: #6e5441; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    /* align-items: center; */
+}
+
+/* give a good background color to the id all-dieseases     */
+
+/* make right-left class flex and make it responsive  */
+
+.right-left {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/*news class are on right side of the web page and make it responsive */
+
+.news {
+    text-align: center;
+    /* text-shadow: #3a47d5 0 0 10px; */
+    /* font-size: 30px; */
+    width: 38%;
+    margin-bottom: 30px;
+    /* background-color: #6e5441; */
+    background-color:  #ecdcd0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* make news-heading responsive with dynamic background */
+
+.news-heading {
+    background: linear-gradient(90deg, #00d2ff, #3a47d5);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 0;
+}
+
+news-para {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* manage the size of internal logo and make it responsive  */
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    display: block;
+    align-items: center;
+    align-content: center;
+}
+
+/* everything inside the all-dieseases id are in center of the web page and make it responsive */
+
+.all-dieseases {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/*physical class are on center of webpage and make it responsive */
+
+
+
+/* ====================================== */
+
+.physical {
+    width: 48%;
+    margin-bottom: 30px;
+    background-color: #6e5441;
+    
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* physical class are on center of the all-dieases id and make it responsive  */
+
+/* make physical-heading responsive with dynamic background */
+
+.physical {
+    /* background: linear-gradient(90deg, #00d2ff, #3a47d5); */
+    background: linear-gradient(90deg,#2e4e55 , #3a47d5);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+
+
+
+
+.internal {
+    width: 48%;
+    margin-bottom: 30px;
+    background-color: #6e5441;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* physical class are on center of the all-dieases id and make it responsive  */
+
+/* make physical-heading responsive with dynamic background */
+
+.internal {
+    /* background: linear-gradient(90deg, #00d2ff, #3a47d5); */
+    background: linear-gradient(90deg,#2e4e55 , #3a47d5);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+
+
+.physcological {
+    width: 48%;
+    margin-bottom: 30px;
+    background-color: #6e5441;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* physical class are on center of the all-dieases id and make it responsive  */
+
+/* make physical-heading responsive with dynamic background */
+
+.physcological {
+    /* background: linear-gradient(90deg, #00d2ff, #3a47d5); */
+    background: linear-gradient(90deg,#2e4e55 , #3a47d5);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+
+
+
+
+.narcoatic {
+    width: 48%;
+    margin-bottom: 30px;
+    background-color: #6e5441;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* physical class are on center of the all-dieases id and make it responsive  */
+
+/* make physical-heading responsive with dynamic background */
+
+.narcoatic {
+    /* background: linear-gradient(90deg, #00d2ff, #3a47d5); */
+    background: linear-gradient(90deg,#2e4e55 , #3a47d5);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+/* medical-news class are inside the news class and make it responsive  */
+
+.medical-news-class {
+    width: 90%;
+    margin-bottom: 30px;
+    background-color: #6e5441;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+
+/*make psychology Diseases responsive with dynamic background */
+
+.psychology-diseases {
+    background: linear-gradient(90deg,#2e4e55 , #3a47d5);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* narco-logo border radius  */
+
+.narco-logo, .psysco-logo, .ph-logo{
+    border-radius: 50%;
+}
+
