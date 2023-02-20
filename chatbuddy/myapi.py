@@ -8,7 +8,7 @@ class ModelName(str, Enum):
     dengue = "dengue"
     rhinitis = "rhinitis"
 
-openai.api_key ='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'
+openai.api_key ='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//notinusenow'
 # Set up the model and prompt
 model_engine = "text-ada-001"
 
